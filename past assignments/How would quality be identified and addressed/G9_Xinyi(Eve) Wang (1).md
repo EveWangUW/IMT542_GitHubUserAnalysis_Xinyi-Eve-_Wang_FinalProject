@@ -1,0 +1,20 @@
+# G9 Assignment
+To create a guide during my product implementation and a living document to ensure my users that the quality of the data and information structure access is great, I created the test plan as follows. 
+
+# Outline
+My GitHub user analysis project and information system will use React and TypeScript for the frontend design. I hope my project can achieve very reliable functionality and be able to handle heavy load and other unexpected real-world scenarios by following the test-driven development (TDD) methodology and applying comprehensive functional and performance testing, achieving high quality and performance as an information system. 
+
+# Functional Tests
+To implement the test plan on an ongoing basis, first, in terms of the test content, for functional tests, I will perform unit testing on each component, such as making sure a react <h1> component will present a value in the MM/DD/YYYY date format. I will also perform component tests, such as whether a button can be clicked and return the result I want or whether an h4 can be re-rendered when we change its internal value. Another important test is the API test; because my project involves making API calls to the GitHub API endpoint, I'll set up tests to ensure that the correct requests are sent to the endpoint and the correct results are returned. I will incorporate the Jest testing library to realize this test plan, and adopt the test-driven development (TDD) methodology, first write the test requirements for the front-end, then write the code for the front-end, and achieve a final test coverage of 99%+. 
+
+# Performance Tests
+In terms of performance tests, I would like to perform load testing to see how my website performs under expected loads, such as response times and resource utilization. I would also like to conduct stress tests, such as using LoadRunner to simulate high-traffic situations to see how much traffic my website can handle at a particular time point and understand my website's limit so as to improve my website’s performance. Other performance tests I am considering include scalability testing, which focuses on scale-up and scale-out the product, and endurance testing, which is about the long-term performance of the product.
+
+# Consideration for Tests
+In terms of the considerations for tests, I will first aim to achieve comprehensive coverage of potential failures. Moreover, the maintainability of my test code is also important; I want my tests to be easily updated as code changes. I will also make sure that the tests are integrated into the continuous integration and delivery pipeline so that tests can automatically be run when codes are committed or pulled, therefore finding and solving problems more quickly. I will take into account real-world situations to simulate different scenarios, such as normal traffic, unusually high traffic, etc., to ensure that the tests can cover real-world situations well. At the same time, I will define key performance metrics, such as response time, error rate, etc., to ensure that the performance of our products can be well measured. 
+
+# Alarms
+I will set up alarms for test failures in the CI/CD pipeline and send out alarms when important performance metrics drop. For example, the alarms will be sent out when the test success rate or code coverage drops below 99%, the response times are too long, error rates exceed the limit, or the resource utilization of CPU or memory is overly high.
+
+# Actions
+When we encounter problems, we have a very detailed action plan to solve them quickly. For example, when our product experiences bugs or test failures, we will immediately debug and fix the bugs, and we will do the refactoring and maintenance for the code so that the code won't break easily and the tests can be stable. We apply auto-scaling for our infrastructure so that we can handle changing loads. We will also monitor and document the functional and performance tests. The training of employees is also implemented so that problems we encountered before will not happen again.
