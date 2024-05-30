@@ -34,7 +34,7 @@ const GraphQL: React.FC = () => {
   const fetchRepositories = () => {
     // The headers for the request
     const headers = {
-      'Authorization': `Bearer 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`,
+      'Authorization': `Bearer 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`,
       'Content-Type': 'application/json'
     };
 

@@ -1,0 +1,45 @@
+{
+  "data": {
+    "user": {
+      "name": "EveWang",
+      "email": "",
+      "bio": "",
+      "createdAt": "2023-08-16T07:12:54Z",
+      "updatedAt": "2024-05-03T01:02:37Z",
+      "repositories": {
+        "nodes": [
+          {
+            "name": "awsblog",
+            "description": null,
+            "createdAt": "2023-09-13T23:30:38Z",
+            "updatedAt": "2023-09-15T06:33:47Z"
+          },
+          {
+            "name": "hotelwebsite",
+            "description": null,
+            "createdAt": "2023-09-15T06:28:54Z",
+            "updatedAt": "2023-09-15T06:30:31Z"
+          },
+          {
+            "name": "HackerNewsiOSApp",
+            "description": null,
+            "createdAt": "2023-10-16T17:28:45Z",
+            "updatedAt": "2023-10-16T17:30:38Z"
+          },
+          {
+            "name": "MovieReviewApp",
+            "description": null,
+            "createdAt": "2024-01-07T19:57:40Z",
+            "updatedAt": "2024-01-07T20:09:47Z"
+          },
+          {
+            "name": "Hangman-Game",
+            "description": null,
+            "createdAt": "2024-01-11T02:07:51Z",
+            "updatedAt": "2024-01-11T02:11:48Z"
+          }
+        ]
+      }
+    }
+  }
+}

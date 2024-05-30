@@ -197,7 +197,9 @@ export default function GitHub() {
           ...additionalInfo
         };
 
+        //set the new user data
         setCombinedInfoJSON(JSON.stringify(combinedInfo, null, 2));
+        
         //set the public repo data
       const dataPublic = await fetchPublicRepoData(username);
       if (dataPublic) {
@@ -223,6 +225,7 @@ export default function GitHub() {
         RepositoryActivity:calculateRepositoryActivity(dataPublic)
       };
     
+      //set the new repo data
       setCombinedInfoJSON2(JSON.stringify(additionalInfo2, null, 2));
       
       const combinedAnalysis = {
@@ -237,6 +240,7 @@ export default function GitHub() {
         }
       };
 
+      //set the new user and repo data (combined)
       setCombinedInfoJSON3(JSON.stringify(combinedAnalysis, null, 2));
       }
     }
