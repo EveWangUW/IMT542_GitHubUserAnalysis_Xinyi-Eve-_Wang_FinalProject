@@ -15,8 +15,8 @@ This should start the application on local host!
 
 # Note:
 1. You can see the detailed data manipulation process (how I calculated the new data fields) by visiting: code/src/components/github, in the github.tsx, you will see two sections:
-1) user information manipulation and generation of insights
-2) user repo information manipulation and generation of insights
+- 1) user information manipulation and generation of insights
+- 2) user repo information manipulation and generation of insights
 These two sections are where most of the calculation and manipulation are done!
 
 2. It is possible that the graphql endpoint (graphql search function) may not work due to GitHub token expiration (which is why in my presentation, it did not work).
